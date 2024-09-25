@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            width: 600px;
+            height: 40px;
+            border: 4px solid black;
+            border-radius: 16px;
+        }
+        button {
+            padding: 12px;
+            border-radius: 9px;
+            background-color: rgb(255, 0, 0);
+            border: solid black;
+
+            
+        }
+        form{
+            text-align: center;
+            margin-top: 60px;
+            
+        }
+    
+        h2{
+            text-align: center;
+            color: rgb(124, 3, 3);
+          
+        }
+        h1{
+            font-size: large;
+            font-weight: bolder;
+            margin-left: 60px;
+            margin-top: -35px;
+
+            
+            color: rgb(255, 251, 0);
+            
+           
+            
+        }
+        #searchInput{
+            background-color: aqua;
+        }
+        .upp{
+            width: 50px;
+            
+        }
+        .youtube{
+            width: 100px;
+            margin-left: 310px;
+            margin-top: 20px;
+        }
+        .google{
+            width: 65px;
+            margin-left: 30px;
+            
+        }
+        .fecbook{
+            width: 60px;
+            margin-left: 40px;
+        }
+        .insta{
+            width: 100px;
+            margin-left: 40px;
+        }
+        .tik{
+            width: 55px;
+            margin-left: 40px;
+        }
+        .snap{
+            width: 60px;
+            margin-left: 40px;
+        }
+        
+    </style>
+</head>
+<body class="logo" background="LOGO.JPG">
+    <img class="upp" src=" https://th.bing.com/th/id/R.3d6a2ad56bc3403c5cfcc3efe09b741b?rik=7w0mZmIMOAqbkQ&pid=ImgRaw&r=0 alt=">
+    
+
+    <h1>SEARCHING BAR</h1>
+    
+    <form>
+    <input type="text" id="searchInput" placeholder= "    SEARCHING THE YOUR FAVOURITE APP AND VIDEO">
+    <button onclick="performSearch()">Search</button>
+    </form>
+    <img class="youtube" src="https://cdn.pixabay.com/photo/2021/09/11/18/21/youtube-6616310_1280.png" alt="">
+    <img class="google" src="https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/google_logo-google_icongoogle-512.png" alt="">
+    <img class="fecbook" src="https://th.bing.com/th/id/OIP.6-Etwy2306AInODxxbDK6gHaHY?rs=1&pid=ImgDetMain">
+    <img class="insta" src="https://th.bing.com/th/id/R.7d71b718c08dbe9e016274c742ba6558?rik=GVoaBKXglJetsQ&pid=ImgRaw&r=0">
+    <img class="tik" src="https://th.bing.com/th/id/R.86888d01a32c8e8d7f15c3abb8fd7d13?rik=fHBGUk4CsjW64A&pid=ImgRaw&r=0">
+    <img class="snap" src="https://th.bing.com/th/id/OIP.yVEkftB3SS7GN7W4LZDpFAHaHM?rs=1&pid=ImgDetMain">
+    <h2>EDIT BY ......   ALIYAN FAROOQUI</h2>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    <script>
+        function performSearch() {
+            const searchTerm = encodeURIComponent(document.getElementById('searchInput').value);
+            const url = `https://www.google.com/search?q=${searchTerm}`; // Google search ka example
+            window.open(url, '_blank'); // Naya tab kholega
+        }
+    </script>
+
+</body>
+</html>
+
+    
+</body>
+</html>
